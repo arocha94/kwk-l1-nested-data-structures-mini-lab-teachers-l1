@@ -6,8 +6,8 @@ ingredients = [
     ["mayo", "mustard", "tabasco"]
 ]
 
-def sandwich_request(ingredients, order) 
-  # your code here!
+def sandwich_request(ingredients, order)
+   sandwich_request(ingredients, ["rye", "ham", "munster", "mayo"], ["sourdough", "turkey", "swiss", "mustard"], ["baguette", "salami", "cheddar", "tabasco"])
 end
 
 # example city_info hash
@@ -35,5 +35,7 @@ cities = {
 }
 
 def city_populations(cities)
-  # your code here!
+  cities[:los_angeles]
+  cities[:chicago][:mayor]
+  
 end
