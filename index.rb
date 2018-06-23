@@ -35,7 +35,5 @@ cities = {
 }
 
 def city_populations(cities)
-  cities[:los_angeles]
-  cities[:chicago][:mayor]
-  
+  cities.values.sum {|city| city[:population]}
 end
